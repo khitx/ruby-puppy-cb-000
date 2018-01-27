@@ -7,11 +7,11 @@ class Dog
       @@all << self
   end
 
-  def all
+  def self.all
       @@all.each { |e| puts e.name  }
   end
 
-  def clear_all
+  def self.clear_all
     @@all.clear
   end
 end
